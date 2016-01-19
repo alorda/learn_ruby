@@ -19,7 +19,7 @@ def multiply_several_numbers(*num)
 end
 
 def factorial(num) # Take a number
-  factorial_array = [1..num] # Knowing that number, you can make a range from 1 to that number
+  factorial_array = [1..num]rake # Knowing that number, you can make a range from 1 to that number
   # Now run #inject on that array...
   factorial_array.inject(1) { |product, number| product * number }
 end
